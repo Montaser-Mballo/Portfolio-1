@@ -113,8 +113,10 @@
     margin: 0rem 0.5rem;
 }
 
-.project_card ul {
-    display: flex;             
+.project_card div a {
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 0.4rem;   
 }
 
 .project_card article div {

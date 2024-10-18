@@ -15,8 +15,8 @@ import ScrollUp from './components/scrollup/ScrollUp';
 import Project_Page_1 from './pages/project_1/Project_Page_1';
 import Project_Page_2 from './pages/project_2/Project_Page_2';
 import Project_Page_3 from './pages/project_3/Project_Page_3';
-import Project_Page_4 from './pages/project_4/Project_Page_4';
 import Project_Page_5 from './pages/project_5/Project_Page_5';
+import Project_Page_4 from './pages/project_4/Project_Page_4';
 
 const App = () => {
   return (

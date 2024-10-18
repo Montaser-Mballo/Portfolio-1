@@ -1,4 +1,5 @@
 import "../project_page.css";
+import { useEffect } from "react";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import ProjectImg from "../../assets/Habeebi Academy logo.jpg";
@@ -12,6 +13,10 @@ import AnalyticsIcon from "../../assets/analytic-icon.png";
 // import MediaIcon from "../../assets/media-icon.png";
 
 const Project_Page_1 = () => {
+  // Scroll to the top when the page loads
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="project__page">
       <Navbar />
@@ -80,7 +85,7 @@ const Project_Page_1 = () => {
 
           <h2>Role</h2>
 
-          <p>In my role, I was responsible for:</p>
+          <p><strong>In my role, I was responsible for:</strong></p>
 
           <article>
             <ul>
@@ -104,7 +109,7 @@ const Project_Page_1 = () => {
 
           <h2>Outcome</h2>
 
-          <p>The project resulted in:</p>
+          <p><strong>The project resulted in:</strong></p>
 
           <article>
             <ul>
