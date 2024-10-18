@@ -18,7 +18,11 @@
     justify-content: center;
     justify-self: center;
     align-self: center;
-    max-width: 500px;
+    max-width: 1000px;
+}
+
+.project_img_container img {
+    width: 400px;
 }
 
 .project_overview {
@@ -65,7 +69,7 @@
 .project_card {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: max-content max-content max-content 1fr;
+    grid-template-rows: max-content max-content max-content max-content;
     background-color: white;
     padding: 2rem;
     justify-items: center;
@@ -88,6 +92,11 @@
     justify-self: left;
 }
 
+.project_card article {
+    justify-self: left;
+    margin-top: 1rem;
+}
+
 .project_card ul {
     padding-left: 2rem;
 }
@@ -95,6 +104,26 @@
 .project_card li {
     margin: 1rem 0rem;
     list-style-type: disc;
+}
+
+
+.project_card ul .project__button {
+    border-left: 1px black solid;
+    padding: 0.5rem;
+    margin: 0rem 0.5rem;
+}
+
+.project_card ul {
+    display: flex;             
+}
+
+.project_card article div {
+    display: flex;
+}
+
+.project_card article div a {
+    margin: 1rem;
+    margin-bottom: 2rem;
 }
 
 .btn_container {

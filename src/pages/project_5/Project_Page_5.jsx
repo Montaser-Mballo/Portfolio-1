@@ -2,8 +2,7 @@ import "../project_page.css";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
-import ProjectImg from "../../assets/links-corporate-consultants.jpg";
-// import ProjectImg2 from "../../assets/fresho-supermarket-logo.png";
+import ProjectImg2 from "../../assets/fresho-supermarket-logo.png";
 import Canva from "../../assets/canva icon.png";
 import Hootsuite from "../../assets/hootsuite icon.png";
 import Slack from "../../assets/slack-icon.png";
@@ -12,7 +11,7 @@ import PersonIcon from "../../assets/person-icon.png";
 import AnalyticsIcon from "../../assets/analytic-icon.png";
 import MediaIcon from "../../assets/media-icon.png";
 
-const Project_Page_3 = () => {
+const Project_Page_5 = () => {
   return (
     <div className="project__page">
       <Navbar />
@@ -25,15 +24,12 @@ const Project_Page_3 = () => {
       <div className="project_intro">
         <div className="project_img_container">
           <div>
-            <img src={ProjectImg} alt="links-corporate-consultants-logo" />
-          </div>
-          {/* <div>
             <img
               className="img2"
               src={ProjectImg2}
               alt="fresho-supermarket-logo"
             />
-          </div> */}
+          </div>
         </div>
 
         <div className="project_overview">
@@ -284,27 +280,17 @@ const Project_Page_3 = () => {
       <div className="btn_container">
         <div>
           <a
-            href="//linksuae.ae/"
+            href="//freshosupermarket.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="button button--flex">
             Visit Company Page
           </a>
         </div>
-
-        {/* <div>
-          <a
-            href="//freshosupermarket.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="button button--flex">
-            Visit Fresho Supermarket Page
-          </a>
-        </div> */}
       </div>
       <Footer />
     </div>
   );
 };
 
-export default Project_Page_3;
+export default Project_Page_5;

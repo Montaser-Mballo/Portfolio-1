@@ -65,7 +65,6 @@
 }
 
 .project__button:hover {
-    font-size: 1.03rem;
     font-weight: bold;
     cursor: pointer;
     color: hsl(200, 58%, 45%);
